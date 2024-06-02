@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+    <form method="post">
+        <textarea name="content" rows="10" cols="30">{{ content }}</textarea>
+        <br>
+        <input type="submit" value="Save">
+    </form>
+{% endblock %}
